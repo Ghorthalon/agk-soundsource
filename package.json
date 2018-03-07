@@ -1,0 +1,22 @@
+{
+  "name": "agk-soundsource",
+  "version": "0.0.0",
+  "description": "Wrapper around agk-soundobject to quickly create 3D sound sources, mainly used in audio games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wrapper",
+    "agk",
+    "audio",
+    "games",
+    "3d",
+    "sound"
+  ],
+  "author": "Ghorthalon",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.0.9"
+  }
+}
