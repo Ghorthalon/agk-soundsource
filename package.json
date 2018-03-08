@@ -17,6 +17,7 @@
   "author": "Ghorthalon",
   "license": "MIT",
   "dependencies": {
+    "agk-soundobject": "0.0.0",
     "howler": "^2.0.9"
   }
 }
