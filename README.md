@@ -10,6 +10,12 @@ Using NPM:
 npm install agk-soundsource
 
 ## Usage
+### NOTE:
+
+There is currently a bug in Howler that prevents 3D from working properly. To fix this until howler is updated, you must manually edit node_modules/howler/dist/howler.js. Find the line where exports.howler and exports.howl are defined. Cut them and paste them at the bottom of the file. They will work then. See [https://github.com/goldfire/howler.js/issues/916](this) issue.
+
+### Code
+
 import SoundSource from "agk-soundsource";
 
 // Look at agk-soundobject to see how the base directory and extension can be changed. For now, it assumes the sounds are in ./sounds/ and the extension is .webm.
