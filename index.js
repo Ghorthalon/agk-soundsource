@@ -1,7 +1,7 @@
 'use strict';
 
 import so from 'agk-soundobject';
-
+import { Howler } from "howler";
 /** Simple wrapper for agk-soundobject to quickly create 3D sound sources.
 * @constructor
 	* @param {string} file - the path to the file without base directory and extension.
