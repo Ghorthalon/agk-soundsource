@@ -1,6 +1,6 @@
 {
   "name": "agk-soundsource",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wrapper around agk-soundobject to quickly create 3D sound sources, mainly used in audio games",
   "main": "index.js",
   "scripts": {
